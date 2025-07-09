@@ -1,8 +1,0 @@
-name: Run Gemini Workflow
-
-on:
-  workflow_dispatch:  # ← lets you run it from the GitHub Actions tab manually
-
-jobs:
-  call-test-gemini:
-    uses: ./.github/workflows/test-gemini.yml
